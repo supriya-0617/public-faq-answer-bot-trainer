@@ -1,0 +1,67 @@
+{
+  "evaluation_type": "actual merged-model held-out evaluation",
+  "model_dir": "C:\\Users\\supri\\Downloads\\public-faq-answer-bot-trainer\\public-faq-answer-bot-trainer\\models\\merged",
+  "example_count": 8,
+  "exact_match": 0,
+  "exact_match_accuracy": 0.0,
+  "mean_expected_token_overlap": 0.0555,
+  "metric_limitations": "Exact match is strict and token overlap does not measure factual correctness.",
+  "examples": [
+    {
+      "question": "Where can I find accessible public transport information?",
+      "expected": "Illustrative example: Check the official transport operator's accessibility page or contact its customer service for step-free routes, assistance, and vehicle information.",
+      "generated": "I can find accessible public transport information.",
+      "exact_match": false,
+      "token_overlap": 0.087
+    },
+    {
+      "question": "Can I renew a passport before it expires?",
+      "expected": "Illustrative example: Many passport authorities accept renewals, but rules and timing differ. Check the official passport service before applying.",
+      "generated": "Yes.",
+      "exact_match": false,
+      "token_overlap": 0.0
+    },
+    {
+      "question": "How do I register with a public healthcare clinic?",
+      "expected": "Illustrative example: Contact the local public clinic or health portal to learn its registration process. Bring available identity and medical-record information.",
+      "generated": "I register with a public healthcare clinic.",
+      "exact_match": false,
+      "token_overlap": 0.0909
+    },
+    {
+      "question": "What information should I include in a service complaint?",
+      "expected": "Illustrative example: Include the date, location or service, transaction or reference number, a factual description, and the outcome you requested. Avoid unnecessary sensitive information.",
+      "generated": "I am not a lawyer.",
+      "exact_match": false,
+      "token_overlap": 0.0455
+    },
+    {
+      "question": "How do I submit a complaint about a government service?",
+      "expected": "Illustrative example: Use the service provider's official complaints channel, keep a reference number, and explain the issue factually. Escalation routes should be available on the same official website.",
+      "generated": "I submit a complaint about a government service.",
+      "exact_match": false,
+      "token_overlap": 0.0769
+    },
+    {
+      "question": "Where do I apply for proof of residency?",
+      "expected": "Illustrative example: Check the official local-government or civil-registration service. Requirements and issuing offices vary, so confirm before applying.",
+      "generated": "I am not a resident of the United States.",
+      "exact_match": false,
+      "token_overlap": 0.05
+    },
+    {
+      "question": "Where can I find official opening hours?",
+      "expected": "Illustrative example: Check the responsible agency's official website or contact it directly; holiday and appointment-based hours may differ.",
+      "generated": "I am in the US.",
+      "exact_match": false,
+      "token_overlap": 0.05
+    },
+    {
+      "question": "How can I request a medical appointment?",
+      "expected": "Illustrative example: Use the health service's official phone, website, or clinic process. For urgent symptoms, use the appropriate emergency service rather than a routine booking.",
+      "generated": "I am not a doctor.",
+      "exact_match": false,
+      "token_overlap": 0.0435
+    }
+  ]
+}

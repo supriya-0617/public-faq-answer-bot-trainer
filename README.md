@@ -136,6 +136,7 @@ Available screenshots are in `screenshots/`. Operations not captured as PNG stil
 
 - `screenshots/04_streamlit_application.png`
 - `screenshots/05_generated_faq_answer.png`
+- `screenshots/08_github_actions.png`
 
 ## Origin and assistance
 
